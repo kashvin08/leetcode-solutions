@@ -22,3 +22,15 @@ class Solution {
         }
     }
 }
+
+public class MergeSortedArray{
+    public static void main(String[] args) {
+        int[] nums1 = {1,2,3,0,0,0};
+        int[] nums2 = {2,3,4};
+        Solution sol = new Solution();
+        sol.merge(nums1, 3, nums2, 3);
+        for (int num : nums1) {
+            System.out.print(num + " ");
+        }
+    }
+}
