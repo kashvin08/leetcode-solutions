@@ -1,4 +1,4 @@
-import java.util.*;
+import java.util.*; // using 2 pointers
 
 class Solution {
     public int[] twoSum(int[] numbers, int target) {
