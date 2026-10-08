@@ -1,4 +1,4 @@
-class Solution {
+class Solution {//LC easy
     public boolean isPalindrome(int num) {
         int copy = num;
         int sum = 0;
