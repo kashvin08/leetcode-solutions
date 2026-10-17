@@ -9,7 +9,7 @@ class Solution {
 
         while(left < right){
             int width = right - left;
-            int containerHeight =  Math.min(height[left], height[right]);
+            int containerHeight = Math.min(height[left], height[right]);
             int currArea = width * containerHeight;
 
             if(height[left] < height[right]){
@@ -17,7 +17,7 @@ class Solution {
             }else{
                 right--;
             }
-            areaMax = Math.max(areaMax, currArea);
+            areaMax = Math.max(currArea, areaMax);
         }
         return areaMax;
     }
